@@ -11,3 +11,6 @@
     <app-book-results></app-book-results>
   </div>
 </div>
+
+<!-- Alert -->
+<app-alert [alertMsg]="alert" *ngIf="alert" [closeModal]="handleCloseModal()"></app-alert>
